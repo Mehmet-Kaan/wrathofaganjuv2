@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "arcade";
+    src: url('../font/ARCADECLASSIC.TTF');
+}
+
+form > button{
+    margin-top: 50px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	bottom: 50px;
+}
+
+#editForm {
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+	background-image: url("/assets/images/scrolls_background.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: repeat;
+	/* width: 300px; */
+	position: relative;
+	top: -176px;
+	left: -33px;
+}
+
+#editForm > input,
+input {
+	width: 200px;
+	background-image: url("/assets/images/bar.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border: 0px solid transparent;
+	padding: 17px;
+}
+
+#avatar {
+	background-image: none !important;
+	position: relative;
+	left: 259px;
+	top: 164px;
+}
+
+.avatar {
+	width: 100px;
+	min-height: 100px;
+	max-height: 100px;
+	position: relative;
+	top: -26px;
+	right: -251px;
+	color: black;
+	border: 1px solid black;
+	border-radius: 50%;
+	background: white;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'arcade';
+}

@@ -1,0 +1,27 @@
+
+#game {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas{
+	position: absolute;
+}
+
+html{
+    overflow: hidden;
+    background-color: black;
+}
